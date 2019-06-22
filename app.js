@@ -4,7 +4,7 @@ function animatedForm(){
     arrows.forEach(arrow => {
         arrow.addEventListener("click", ()=>{
             const input = arrow.previousElementSibling;
-            const parent =arrow.parentElement;
+            const parent = arrow.parentElement;
             const nextForm =parent.nextElementSibling;
 
             //Check for validation 
